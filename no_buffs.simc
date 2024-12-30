@@ -1,0 +1,15 @@
+potion=disabled
+food=disabled
+flask=disabled
+augmentation=disabled
+temporary_enchant=disabled
+override.bloodlust=0
+override.arcane_intellect=0
+override.power_word_fortitude=0
+override.battle_shout=0
+override.mystic_touch=0
+override.chaos_brand=0
+override.skyfury=0
+override.mark_of_the_wild=0
+override.hunters_mark=0
+override.bleeding=0

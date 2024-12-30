@@ -1,0 +1,10 @@
+# Prelude for reproducible testing.
+threads=12
+iterations=10
+
+# Despite the docs, both options are needed to achieve determinism.
+deterministic=1
+seed=123456789
+
+# Reference output for windpaws20241225:
+# mean_dps = 1505267.652202936 ± 14064.791805406372
