@@ -1,3 +1,14 @@
+"""To use this, build SimC and make sure the "simc" binary is on PATH.
+
+    git clone https://github.com/simulationcraft/simc &&
+    cd simc &&
+    cmake -DCMAKE_BUILD_TYPE=Release -B build . &&
+    cmake --build build -j8 &&
+    ln -frs build/simc ~/.local/bin/simc
+
+For Battle.net API, see:
+https://github.com/simulationcraft/simc/wiki/BattleArmoryAPI
+"""
 import json, os, pathlib, subprocess, sys, tempfile
 
 def recurse_json(p, j):
